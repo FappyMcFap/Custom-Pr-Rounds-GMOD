@@ -45,7 +45,6 @@ PowerRounds.AddRound({
 					Ply:ResetEquipment()
 					Ply:SetCredits(0)
 					SendFullStateUpdate()
-					PrintMessage(3,Ply:Nick().. " was the traitor!")
 				elseif Ply == randomply then
 					randomply:SetRole(ROLE_TRAITOR)
 					randomply:AddCredits(1)
